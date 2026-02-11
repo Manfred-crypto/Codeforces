@@ -1,9 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    string s1,s2;
-    cin>>s1>>s2;
-    transform(s1.begin(), s1.end(), s1.begin(),[](unsigned char c){ return tolower(c); });
-    transform(s2.begin(), s2.end(), s2.begin(),[](unsigned char c){ return tolower(c); });
-    if(s1==s2){cout<<"0";}else{if(s1<s2){cout<<"-1";}else{cout<<"1";}}
+   int n;
+   cin>>n;
+   if(n%4==0||n%7==0||n%47==0||n%74==0||n%447==0||n%474==0||n%477==0||n&747==0||n%774==0){cout<<"YES";}else{cout<<"NO";}
 }
