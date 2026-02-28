@@ -3,7 +3,7 @@ using namespace std;
 int main(){
    int n;string s;
    cin>>n;
-   map<string,int> ioi;
+   unordered_map<string,int> ioi;
    while(n--){
       cin>>s;
       if(!(ioi.contains(s))){cout<<"OK";ioi[s]=1;}
