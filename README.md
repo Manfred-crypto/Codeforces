@@ -1,4 +1,4 @@
-# Codeforces
+# Codeforces [![starline](https://starlines.qoo.monster/assets/OWNER/REPO)](https://github.com/qoomon/starline)
 Young Bryan's work
 ## What language do you use?
 As always, C++.
